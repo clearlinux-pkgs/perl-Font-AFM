@@ -85,19 +85,19 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.1/Font/AFM.pm
-/usr/lib/perl5/vendor_perl/5.28.1/Font/Metrics/Courier.pm
-/usr/lib/perl5/vendor_perl/5.28.1/Font/Metrics/CourierBold.pm
-/usr/lib/perl5/vendor_perl/5.28.1/Font/Metrics/CourierBoldOblique.pm
-/usr/lib/perl5/vendor_perl/5.28.1/Font/Metrics/CourierOblique.pm
-/usr/lib/perl5/vendor_perl/5.28.1/Font/Metrics/Helvetica.pm
-/usr/lib/perl5/vendor_perl/5.28.1/Font/Metrics/HelveticaBold.pm
-/usr/lib/perl5/vendor_perl/5.28.1/Font/Metrics/HelveticaBoldOblique.pm
-/usr/lib/perl5/vendor_perl/5.28.1/Font/Metrics/HelveticaOblique.pm
-/usr/lib/perl5/vendor_perl/5.28.1/Font/Metrics/TimesBold.pm
-/usr/lib/perl5/vendor_perl/5.28.1/Font/Metrics/TimesBoldItalic.pm
-/usr/lib/perl5/vendor_perl/5.28.1/Font/Metrics/TimesItalic.pm
-/usr/lib/perl5/vendor_perl/5.28.1/Font/Metrics/TimesRoman.pm
+/usr/lib/perl5/vendor_perl/5.28.2/Font/AFM.pm
+/usr/lib/perl5/vendor_perl/5.28.2/Font/Metrics/Courier.pm
+/usr/lib/perl5/vendor_perl/5.28.2/Font/Metrics/CourierBold.pm
+/usr/lib/perl5/vendor_perl/5.28.2/Font/Metrics/CourierBoldOblique.pm
+/usr/lib/perl5/vendor_perl/5.28.2/Font/Metrics/CourierOblique.pm
+/usr/lib/perl5/vendor_perl/5.28.2/Font/Metrics/Helvetica.pm
+/usr/lib/perl5/vendor_perl/5.28.2/Font/Metrics/HelveticaBold.pm
+/usr/lib/perl5/vendor_perl/5.28.2/Font/Metrics/HelveticaBoldOblique.pm
+/usr/lib/perl5/vendor_perl/5.28.2/Font/Metrics/HelveticaOblique.pm
+/usr/lib/perl5/vendor_perl/5.28.2/Font/Metrics/TimesBold.pm
+/usr/lib/perl5/vendor_perl/5.28.2/Font/Metrics/TimesBoldItalic.pm
+/usr/lib/perl5/vendor_perl/5.28.2/Font/Metrics/TimesItalic.pm
+/usr/lib/perl5/vendor_perl/5.28.2/Font/Metrics/TimesRoman.pm
 
 %files dev
 %defattr(-,root,root,-)
