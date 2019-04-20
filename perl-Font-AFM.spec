@@ -4,11 +4,11 @@
 #
 Name     : perl-Font-AFM
 Version  : 1.20
-Release  : 9
+Release  : 10
 URL      : https://cpan.metacpan.org/authors/id/G/GA/GAAS/Font-AFM-1.20.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/G/GA/GAAS/Font-AFM-1.20.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libf/libfont-afm-perl/libfont-afm-perl_1.20-2.debian.tar.xz
-Summary  : ~
+Summary  : Parse Adobe Font Metric files
 Group    : Development/Tools
 License  : Artistic-1.0 GPL-1.0
 Requires: perl-Font-AFM-license = %{version}-%{release}
@@ -29,6 +29,7 @@ $h->dump;  # for debugging
 Summary: dev components for the perl-Font-AFM package.
 Group: Development
 Provides: perl-Font-AFM-devel = %{version}-%{release}
+Requires: perl-Font-AFM = %{version}-%{release}
 
 %description dev
 dev components for the perl-Font-AFM package.
@@ -47,7 +48,7 @@ license components for the perl-Font-AFM package.
 cd ..
 %setup -q -T -D -n Font-AFM-1.20 -b 1
 mkdir -p deblicense/
-mv %{_topdir}/BUILD/debian/* %{_topdir}/BUILD/Font-AFM-1.20/deblicense/
+cp -r %{_topdir}/BUILD/debian/* %{_topdir}/BUILD/Font-AFM-1.20/deblicense/
 
 %build
 export http_proxy=http://127.0.0.1:9/
