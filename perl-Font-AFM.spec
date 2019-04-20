@@ -4,7 +4,7 @@
 #
 Name     : perl-Font-AFM
 Version  : 1.20
-Release  : 10
+Release  : 11
 URL      : https://cpan.metacpan.org/authors/id/G/GA/GAAS/Font-AFM-1.20.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/G/GA/GAAS/Font-AFM-1.20.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libf/libfont-afm-perl/libfont-afm-perl_1.20-2.debian.tar.xz
