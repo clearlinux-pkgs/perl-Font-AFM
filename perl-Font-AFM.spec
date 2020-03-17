@@ -4,7 +4,7 @@
 #
 Name     : perl-Font-AFM
 Version  : 1.20
-Release  : 13
+Release  : 14
 URL      : https://cpan.metacpan.org/authors/id/G/GA/GAAS/Font-AFM-1.20.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/G/GA/GAAS/Font-AFM-1.20.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libf/libfont-afm-perl/libfont-afm-perl_1.20-2.debian.tar.xz
@@ -84,7 +84,7 @@ make TEST_VERBOSE=1 test
 %install
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/perl-Font-AFM
-cp %{_builddir}/Font-AFM-1.20/deblicense/copyright %{buildroot}/usr/share/package-licenses/perl-Font-AFM/8d0370206d541d05ace71cebad0e36ae764c709e
+cp %{_builddir}/debian/copyright %{buildroot}/usr/share/package-licenses/perl-Font-AFM/8d0370206d541d05ace71cebad0e36ae764c709e
 if test -f Makefile.PL; then
 make pure_install PERL_INSTALL_ROOT=%{buildroot} INSTALLDIRS=vendor
 else
@@ -108,16 +108,16 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/Font/AFM.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Font/Metrics/Courier.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Font/Metrics/CourierBold.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Font/Metrics/CourierBoldOblique.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Font/Metrics/CourierOblique.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Font/Metrics/Helvetica.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Font/Metrics/HelveticaBold.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Font/Metrics/HelveticaBoldOblique.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Font/Metrics/HelveticaOblique.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Font/Metrics/TimesBold.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Font/Metrics/TimesBoldItalic.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Font/Metrics/TimesItalic.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Font/Metrics/TimesRoman.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Font/AFM.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Font/Metrics/Courier.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Font/Metrics/CourierBold.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Font/Metrics/CourierBoldOblique.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Font/Metrics/CourierOblique.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Font/Metrics/Helvetica.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Font/Metrics/HelveticaBold.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Font/Metrics/HelveticaBoldOblique.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Font/Metrics/HelveticaOblique.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Font/Metrics/TimesBold.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Font/Metrics/TimesBoldItalic.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Font/Metrics/TimesItalic.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Font/Metrics/TimesRoman.pm
