@@ -4,7 +4,7 @@
 #
 Name     : perl-Font-AFM
 Version  : 1.20
-Release  : 14
+Release  : 15
 URL      : https://cpan.metacpan.org/authors/id/G/GA/GAAS/Font-AFM-1.20.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/G/GA/GAAS/Font-AFM-1.20.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libf/libfont-afm-perl/libfont-afm-perl_1.20-2.debian.tar.xz
@@ -108,16 +108,16 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.2/Font/AFM.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Font/Metrics/Courier.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Font/Metrics/CourierBold.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Font/Metrics/CourierBoldOblique.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Font/Metrics/CourierOblique.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Font/Metrics/Helvetica.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Font/Metrics/HelveticaBold.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Font/Metrics/HelveticaBoldOblique.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Font/Metrics/HelveticaOblique.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Font/Metrics/TimesBold.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Font/Metrics/TimesBoldItalic.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Font/Metrics/TimesItalic.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Font/Metrics/TimesRoman.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Font/AFM.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Font/Metrics/Courier.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Font/Metrics/CourierBold.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Font/Metrics/CourierBoldOblique.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Font/Metrics/CourierOblique.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Font/Metrics/Helvetica.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Font/Metrics/HelveticaBold.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Font/Metrics/HelveticaBoldOblique.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Font/Metrics/HelveticaOblique.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Font/Metrics/TimesBold.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Font/Metrics/TimesBoldItalic.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Font/Metrics/TimesItalic.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Font/Metrics/TimesRoman.pm
